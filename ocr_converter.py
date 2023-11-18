@@ -9,8 +9,7 @@ import fitz #!pip install PyMuPDF
 # get pdf files
 PATH = os.getcwd()
 file_list = [f for f in os.listdir(path=PATH) if f.endswith('.pdf') or f.endswith('.PDF')]
-#file_list = [f for f in os.listdir(path="ocr_success/") if f.endswith('.pdf') or f.endswith('.PDF')]
-file = "A_Social_Problem_In_Jungle_Ter.pdf"
+
 '''
 main ocr code, which create new pdf file with OCR_ ahead its origin filename, 
 and error messege can be find in error_log
@@ -47,3 +46,5 @@ for file in ocr_file_list:
         pages_df = pages_df.append({'text': page.getText('text')}, ignore_index=True)
         
         extraction_pdfs[file] = pages_df
+
+        extraction_pdfs[ocr_file_list[0]]
