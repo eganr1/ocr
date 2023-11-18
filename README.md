@@ -1,6 +1,6 @@
 # OCR
 
-I created this repo as a tool for students like me who find it difficult to annotate low-quality PDF scans. This code uses optical character recognition (OCR) which identifies a file's text, thereby enabling readers to select it, highlight it, copy it, and more. After experimenting with Tesseract, Pytesseract, and OpenCV, I ultimately found the code contained in Jonathon Lee's (Medium article)[https://medium.com/social-impact-analytics/extract-text-from-unsearchable-pdfs-for-data-analysis-using-python-a6a2ca0866dd] to be the most successful in terms of its balance of efficacy and simplicity. As such, the steps for running this code are easy:
+I created this repo as a tool for students like me who find it difficult to annotate low-quality PDF scans. This code uses optical character recognition (OCR) which identifies a file's text, thereby enabling readers to select it, highlight it, copy it, and more. After experimenting with Tesseract, Pytesseract, and OpenCV, I ultimately found the code contained in Jonathon Lee's [Medium article](https://medium.com/social-impact-analytics/extract-text-from-unsearchable-pdfs-for-data-analysis-using-python-a6a2ca0866dd) to be the most successful in terms of its balance of efficacy and simplicity. As such, the steps for running this code are easy:
 
 ## Preliminary Installation
 
