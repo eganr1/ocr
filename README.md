@@ -21,3 +21,8 @@ The following steps describe the process of installing Tesseract and the require
 3. Place your PDF in the ocr folder.
 4. Navigate to `ocr_converter.py` and run the code. This will create a new PDF with "OCR_" before the original title.
 5. Locate the generated PDF within the ocr folder.
+
+Versions:
+
+Python 3.10.11 64-bit
+ocrmypdf 15.4.3
